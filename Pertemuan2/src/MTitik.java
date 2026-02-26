@@ -19,6 +19,14 @@ public class MTitik {
         T1.setOrdinat(10);
         T2.printTitik();
 
+        // refleksiX
+        T1.refleksiX();
+        T1.printTitik();
+
+        // refleksiY
+        T1.refleksiY();
+        T1.printTitik();
+
         // Membuat objek baru
         Titik T3 = new Titik(3,5); 
 
