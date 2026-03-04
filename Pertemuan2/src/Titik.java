@@ -28,6 +28,7 @@ public class Titik {
         return counterTitik;
     }
     
+    // Getter
     //mengembalikan nilai absis
     double getAbsis(){
         return absis;
@@ -72,8 +73,10 @@ public class Titik {
         return Math.sqrt(absis*absis + ordinat*ordinat);
     }
 
-    public double getJarak(Titik T){
-        return Math.sqrt((absis - T.absis)*(absis - T.absis) + (ordinat - T.ordinat)*(ordinat - T.ordinat));
+    double getJarak(Titik T) {
+        double dx = absis - T.absis;
+        double dy = ordinat - T.ordinat;
+        return Math.sqrt(dx * dx + dy * dy);
     }
 
     void refleksiX(){

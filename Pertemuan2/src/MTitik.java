@@ -19,6 +19,9 @@ public class MTitik {
         T1.setOrdinat(10);
         T2.printTitik();
 
+        // Membuat objek baru
+        Titik T3 = new Titik(3,5); \
+
         // refleksiX
         T1.refleksiX();
         T1.printTitik();
@@ -27,8 +30,14 @@ public class MTitik {
         T1.refleksiY();
         T1.printTitik();
 
-        // Membuat objek baru
-        Titik T3 = new Titik(3,5); 
+        // Jarak T3 ke pusat
+        System.out.println("Jarak T3 ke pusat: " + T3.getJarakPusat());
+
+        // Jarak T3 ke T1
+        System.out.println("Jarak T3 ke T1: " + T3.getJarak(T1));
+
+        // Kuadran T3
+        System.out.println("Kuadran T3: " + T3.getKuadran());
 
         // getRefleksiX
         Titik T5 = T3.getRefleksiX();
@@ -41,4 +50,3 @@ public class MTitik {
         System.out.println("Jumlah objek Titik = " + Titik.getCounterTitik());
     }
 }
-
