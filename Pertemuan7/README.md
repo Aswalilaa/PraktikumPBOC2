@@ -1,18 +1,3 @@
-## Getting Started
+## RENUNGAN - PERTEMUAN7
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Polimorfisme merupakan konsep yang memungkinkan suatu objek atau metode memiliki banyak bentuk perilaku yang berbeda meskipun memiliki nama yang sama. Cara kerjanya yaitu dengan cara memberikan hasil yang berbeda saat metode yang sama dipanggil, tergantung pada jenis objek yang digunakan. Hal ini dapat terjadi melalui mekanisme seperti overloading, overriding, maupun penggunaan tipe induk yang dapat merepresentasikan berbagai objek turunan. Dengan adanya polimorfisme, penulisan kode menjadi lebih efisien dan tidak perlu berulang-ulang, sehingga program lebih mudah dipahami dan dikembangkan.
