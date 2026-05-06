@@ -1,18 +1,3 @@
-## Getting Started
+## RENUNGAN - PERTEMUAN8
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Generik merupakan konsep yang memungkinkan suatu kelas, metode atau struktur data yang bekerja dengan berbagai tipe data tanpa harus mendefinisikannya secara spesifik dari awal. Cara kerjanya yaitu dengan menggunakan parameter tipe yang baru ditentukan saat kelas/metode tersebut digunakan, bukan saat didefinisikan. Hal ini membuat satu implementasi kode dapat digunakan untuk berbagai tipe data, baik itu integer, string, maupun objek seperti keluarga Anabul, tanpa perlu menulis ulang logika yang sama berulang kali. Dengan adanya generik, kode menjadi lebih fleksibel, aman dari kesalahan tipe data sejak tahap kompilasi, serta lebih mudah dipelihara karena perubahan hanya perlu dilakukan di satu tempat
