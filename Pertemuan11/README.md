@@ -1,0 +1,3 @@
+## RENUNGAN - PERTEMUAN8
+
+Generik merupakan konsep yang memungkinkan suatu kelas, metode atau struktur data yang bekerja dengan berbagai tipe data tanpa harus mendefinisikannya secara spesifik dari awal. Cara kerjanya yaitu dengan menggunakan parameter tipe yang baru ditentukan saat kelas/metode tersebut digunakan, bukan saat didefinisikan. Hal ini membuat satu implementasi kode dapat digunakan untuk berbagai tipe data, baik itu integer, string, maupun objek seperti keluarga Anabul, tanpa perlu menulis ulang logika yang sama berulang kali. Dengan adanya generik, kode menjadi lebih fleksibel, aman dari kesalahan tipe data sejak tahap kompilasi, serta lebih mudah dipelihara karena perubahan hanya perlu dilakukan di satu tempat
